@@ -110,4 +110,85 @@ header {
     max-width: 1272px;
     margin-left:  79px;
     border-radius: 20px;
+  
+}
+
+    /* ----------------------- */
+
+.section-topics h1{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+
+.cards img{
+    width: 88px;
+    height: 88px;
+}
+
+.cards h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    color:#262626;
+    
+}
+
+.cards button{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    color:#262626;
+}
+
+.topics{
+margin-top: 73px;
+margin-left: 84px;
+display: flex;
+flex-direction: column;
+gap: 48px;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 85px;
+    width: max-content;
+    padding: 51px 30px 30px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 6px 8px #0000000D;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.cards button{
+    width: 143.81px;
+    height: 35.95px;
+    border-radius: 40px;
+    background-color: #4CE0D7;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.deck{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 83px;
+}
+
+.cards button:hover{
+    background-color:#8BA9F4;
+}
+
+.cards:hover{
+    transform: translateY(-15px);
+}
+ 
+.hr{
+    margin-bottom: 100px;
 }
