@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 37px 47px 84px 84px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    max-width: 1440px;
+}
+
+
+.logo img{
+    width: 234px;
+    height: 49px;
+    cursor: pointer;
+}
+
+
+.nav a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 32px;
+    color: #262626;
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 40px;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav a:hover{
+    background-color: #4CE0D7;
+    border-radius: 40px;
+    
+}
+
+.nav img{
+    margin-left: 67px;
+    cursor: pointer;
+}
+
+
+
+
+
+   /* fist-section */
+
+
+   .first-section h4{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    color:#FFFFFF;
+    margin-left: 57px;
+   }
+
+   .first-section h1{
+    font-family: Poppins;
+    font-size: 46px;
+    font-weight: 400;
+   line-height: 69px;
+   color: #FFFFFF;
+   margin-left: 57px;
+}
+
+
+   .first-section span {
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    color: transparent; 
+    font-weight: 700;
+   }
+
+   .first-section p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 57px;
+    max-width: 494px;
+   }
+
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    background-image: url(./imgs/pexels-andrea-piacquadio-994234\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 218px;
+    padding-bottom: 148px;
+    max-width: 1272px;
+    margin-left:  79px;
+    border-radius: 20px;
+}
