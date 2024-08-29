@@ -172,13 +172,15 @@ gap: 48px;
     background-color: #4CE0D7;
     font-weight: 700;
     cursor: pointer;
+
+    border: none;
 }
 
 .deck{
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin-bottom: 83px;
+
 }
 
 .cards button:hover{
@@ -189,6 +191,206 @@ gap: 48px;
     transform: translateY(-15px);
 }
  
-.hr{
-    margin-bottom: 100px;
+.line {
+    width: 1267px;
+    height: 0px;
+    border-top: 1px solid #BCBCBC;
+    opacity: 1;
+    margin: 85px 52.2px 85px 85px;
+}
+
+
+/* --------------Fashion Section------------------ */
+
+.fashionSection{
+    background-color: #FFFFFF;
+
+    width: 1204px;
+    height: 698px;
+    top: 1280px;
+    left: 118px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+
+    box-shadow: 0px 6px 6px 0px #0000000D;
+
+    margin: 0 97px 118px 118px;
+
+}
+
+.fashionImage {
+    position: relative;
+}
+
+.fashionImage img {
+    border-radius: 20px;
+    width: 1204px;
+    height: 360.3px;
+    top: 1280px;
+    left: 118px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.fashionImage button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 233.95px;
+    height: 36.49px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #262626;
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+
+    margin-left: 40px;
+    margin-top: 13px;
+
+    cursor: pointer;
+}
+.fashionImage button:hover{
+    background-color: rgb(205, 194, 174);
+    color: black;
+}
+
+
+.fashionDate img{
+    width: 65.67px;
+    height: 50.77px;
+    top: 1663.65px;
+    left: 182.34px;
+    gap: 0px;
+    opacity: 0px;
+
+    border-radius: 100%;
+    
+}
+
+.fashionInfo small{
+    color: #BCBCBC;
+
+    width: 168px;
+    height: 21px;
+    top: 1678px;
+    left: 269px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.fashionInfo{
+    
+    padding: 10px;
+}
+
+.fashionDate{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 30px;
+    margin-left: 64px;
+
+}
+
+.profileInfo{
+    justify-content: space-evenly;
+}
+.profileInfo img{
+    cursor: pointer;
+}
+
+.profileInfo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.fashionDate b{
+    display: flex;
+    justify-content: center;
+    color: #F25E5E;
+
+    width: 216px;
+    height: 23px;
+    top: 1680px;
+    left: 1042px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    text-align: left;
+}
+
+.fashionText h1{
+    width: 1044px;
+    height: 36px;
+    top: 1744px;
+    left: 182px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+
+    color: #262626;
+
+    margin-left: 64px;
+    margin-bottom: 23px;
+    margin-right: 96px;
+}
+
+.fashionText p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+    color: #262626;
+
+    margin-left: 64px;
+    margin-bottom: 40px;
+    margin-right: 107px;
+    width: 800px;
+    height: 71px;
+    
+}
+
+
+.fashionReadMore{
+    display: flex;
+    margin-left: 51px;
+}
+.fashionReadMore b{
+    display: flex;
+    align-items: center;
+
+    color: #4CE0D7;
+
+
+}
+.fashionReadMore{
+    cursor: pointer;
+    width: 160px;
+}
+.fashionReadMore:hover{
+    transform: translateX(15px);
+}
+.fashionReadMore b:hover{
+    color:  rgb(205, 194, 174);
 }
