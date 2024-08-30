@@ -4,26 +4,32 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
 header {
-    padding: 37px 47px 84px 84px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between; 
-    max-width: 1440px;
+    max-width: 1272px;
+    margin-bottom: 47px;
+    margin-top: 37px; 
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: none;
+    justify-content: space-between;
 }
 
+.logo {
+    position: relative;
+    display: inline-block;
+}
 
-.logo img{
+.logo img {
     width: 234px;
     height: 49px;
     cursor: pointer;
+    position: relative;
 }
 
-
 .nav a {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-weight: 700;
     padding: 8px 32px;
@@ -32,9 +38,14 @@ header {
     align-items: center; 
     justify-content: center; 
     border-radius: 40px;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease, transform 0.3s ease;; 
     cursor: pointer;
-    
+}
+
+.nav a:hover {
+    background-color: #4CE0D7;
+    border-radius: 40px;
+    transform: scale(0.9);
 }
 
 .nav{
@@ -51,30 +62,70 @@ header {
 .nav img{
     margin-left: 67px;
     cursor: pointer;
+    height: 47px;
+    width: 47px;
+    transition: transform 0.3s ease;; 
+    cursor: pointer;
 }
 
-
-
+.nav img:hover {
+    transform: scale(1.2); 
+}
 
 
    /* fist-section */
 
+.first-section{
+    display: flex;
+    flex-direction: row;
+    width: 1272px;
+    height: 559px;
+    border-radius: 20px;
+    justify-content: center; 
+    margin-bottom: 73px; 
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: none;
+    
+}
 
-   .first-section h4{
-    font-family: Poppins;
+.first-section-container {
+    width: 1272px;
+    height: 559px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(./imgs/pexels-andrea-piacquadio-994234\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 218px;
+    padding-bottom: 148px;
+    border-radius: 20px;
+}
+
+.first-section.content {
+    align-content: flex-start;
+    
+}
+
+.first-section h4{
+    font-family: 'Poppins';
     font-size: 12px;
     font-weight: 700;
     color:#FFFFFF;
     margin-left: 57px;
+    margin-bottom: 22px;
+
    }
 
    .first-section h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 46px;
     font-weight: 400;
-   line-height: 69px;
-   color: #FFFFFF;
-   margin-left: 57px;
+    line-height: 69px;
+    color: #FFFFFF;
+    margin-left: 57px;
+    margin-bottom: 19px;
 }
 
 
@@ -88,42 +139,72 @@ header {
    }
 
    .first-section p{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 400;
     color: #FFFFFF;
     margin-left: 57px;
     max-width: 494px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
    }
 
 
-.first-section{
+  /* --------topics-section--------------- */
+
+.section-topics {
     display: flex;
     flex-direction: column;
-    gap: 23px;
-    background-image: url(./imgs/pexels-andrea-piacquadio-994234\ 1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 218px;
-    padding-bottom: 148px;
-    max-width: 1272px;
-    margin-left:  79px;
-    border-radius: 20px;
-  
+    align-items: flex-start; 
+    max-width: 1282px; 
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    box-shadow: none;
+    padding: 0 10px; 
 }
 
-    /* ----------------------- */
+.topics {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    width: 100%; 
+}
 
-.section-topics h1{
-    font-family: Poppins;
+.topics h1 {
+    font-family: 'Poppins';
     font-size: 32px;
     font-weight: 700;
+    color: #262626;
+    margin: 0px; 
+    margin-bottom: 0px;
 }
 
+.deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    gap: 5px;
+    flex-wrap: wrap; 
+    width: 100%; 
+}
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 204px;
+    height: 291px;
+    padding: 51px 30px 30px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 6px 8px #0000000D;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 87.5px;
+}
 
-.cards img{
+.cards img {
     width: 88px;
     height: 88px;
 }
@@ -132,91 +213,58 @@ header {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
-    color:#262626;
-    
+    color: #262626;
 }
 
-.cards button{
+.cards button {
     font-family: Poppins;
     font-size: 12px;
     font-weight: 700;
-    color:#262626;
-}
-
-.topics{
-margin-top: 73px;
-margin-left: 84px;
-display: flex;
-flex-direction: column;
-gap: 48px;
-
-}
-
-.cards{
-    display: flex;
-    flex-direction: column;
-    gap: 20px 85px;
-    width: max-content;
-    padding: 51px 30px 30px 30px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 6px 6px 8px #0000000D;
-    align-items: center;
-    border-radius: 20px;
-    
-}
-
-.cards button{
+    color: #262626;
     width: 143.81px;
     height: 35.95px;
     border-radius: 40px;
     background-color: #4CE0D7;
     font-weight: 700;
     cursor: pointer;
-
     border: none;
 }
 
-.deck{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-
+.cards button:hover {
+    background-color: #c7ccff;
 }
 
-.cards button:hover{
-    background-color:#8BA9F4;
-}
-
-.cards:hover{
+.cards:hover {
     transform: translateY(-15px);
 }
- 
+
 .line {
-    width: 1267px;
-    height: 0px;
+    width: 100%; 
+    height: 0;
     border-top: 1px solid #BCBCBC;
     opacity: 1;
-    margin: 85px 52.2px 85px 85px;
+    margin: auto;
+    margin-bottom: 52.5px;
 }
-
 
 /* --------------Fashion Section------------------ */
 
 .fashionSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    max-width: 1204px; 
+    max-height: 698px;
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
     background-color: #FFFFFF;
-
-    width: 1204px;
-    height: 698px;
     top: 1280px;
     left: 118px;
     gap: 0px;
     border-radius: 20px;
-    opacity: 0px;
-
     box-shadow: 0px 6px 6px 0px #0000000D;
-
-    margin: 0 97px 118px 118px;
-
+    margin-bottom: 97px;
 }
 
 .fashionImage {
@@ -268,20 +316,16 @@ gap: 48px;
     left: 182.34px;
     gap: 0px;
     opacity: 0px;
-
     border-radius: 100%;
-    
 }
 
 .fashionInfo small{
     color: #BCBCBC;
-
     width: 168px;
     height: 21px;
-    top: 1678px;
-    left: 269px;
-    gap: 0px;
     opacity: 0px;
+    font-family: 'poppins';
+    padding-left: 20px;
 }
 
 .fashionInfo{
@@ -292,10 +336,10 @@ gap: 48px;
 .fashionDate{
     display: flex;
     justify-content: space-between;
-    
-    margin-bottom: 30px;
-    margin-left: 64px;
-
+    width: 100%;
+    margin: 15px 80px 25px 64px;
+    align-items: center;
+    max-width: 2076px;
 }
 
 .profileInfo{
@@ -315,22 +359,17 @@ gap: 48px;
 
 .fashionDate b{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     color: #F25E5E;
-
-    width: 216px;
-    height: 23px;
-    top: 1680px;
-    left: 1042px;
     gap: 0px;
     opacity: 0px;
-
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.24em;
-    text-align: left;
+    text-align: right;
+    margin-left: 290px;
 }
 
 .fashionText h1{
@@ -340,31 +379,27 @@ gap: 48px;
     left: 182px;
     gap: 0px;
     opacity: 0px;
-
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 26px;
     font-weight: 700;
     line-height: 39px;
     text-align: left;
-
     color: #262626;
-
     margin-left: 64px;
     margin-bottom: 23px;
     margin-right: 96px;
 }
 
 .fashionText p {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 
     color: #262626;
-
+    margin-bottom: 20px;
     margin-left: 64px;
-    margin-bottom: 40px;
     margin-right: 107px;
     width: 800px;
     height: 71px;
@@ -375,15 +410,21 @@ gap: 48px;
 .fashionReadMore{
     display: flex;
     margin-left: 51px;
+    margin-bottom: 70px;
 }
 .fashionReadMore b{
     display: flex;
     align-items: center;
-
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
     color: #4CE0D7;
-
-
+    font-family: Poppins;
+    letter-spacing: 0.24em;
 }
+
 .fashionReadMore{
     cursor: pointer;
     width: 160px;
@@ -391,30 +432,24 @@ gap: 48px;
 .fashionReadMore:hover{
     transform: translateX(15px);
 }
-.fashionReadMore b:hover{
-    color:  rgb(205, 194, 174);
-}
 
-
-
-
-
-/* trending section css starts here */
+/*---------trending section--------*/
 
 .trending-section {
-    margin: 0px 118px 88px 118px;
+    max-width: 1204px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 88.2px;
+    margin: 0 auto;
+
 }
 
 .lifestyle, .summer {
     width: 579px;
     height: 670px;
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
-
+    margin-bottom: 88.2px;
 }
 
 .trending {
@@ -536,6 +571,7 @@ gap: 48px;
 
 
 .fourth-part b {
+    padding-top: 3px;
     width: 216px;
     height: 23px;
     top: 2771px;
@@ -577,38 +613,299 @@ gap: 48px;
 
 
 
+/* cards-section container */
+
+.cards-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start;
+    margin-bottom: 69px; 
+    max-width: 1204px; 
+    margin-left: auto;
+    margin-right: auto; 
+    box-shadow: none;
+    max-height: 1210px;
+    margin-top: 0px;
+}
 
 
+.Scards {
+    display: flex; 
+    flex-direction: column;  
+    gap: 48px;
+    width: 100%;
+    box-shadow: none; 
+}
+
+.card1, .card2, .card3 { 
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%; 
+    max-width: 1204px;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.first-button {
+    background: url(first.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 337px 304px 34px;
+    margin-right: 45px;
+    border-radius: 20px;
+}
+
+.first-button button {
+    width: 175.44px;
+    height: 36.49px;
+    border-radius: 40px;
+    background-color: #262626;
+    border: none;
+    color: white;
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 700;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.first-button button:hover {
+    background: linear-gradient(90deg, #3D6C53, #CE9F73);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+.first-side-top {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #BCBCBC;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.first-side-top img {
+    height: 50.77px;
+    width: 65.67px;
+}
+
+.first-side-top div {
+    display: flex;
+    gap: 200px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.first-side-middle {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.first-side-middle h1 {
+    width: 543px;
+    height: 94px;
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+}
+
+.first-side-middle p {
+    width: 569px;
+    height: 73px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.first-side-bottom {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+    
+.first-side-bottom img {
+    width: 21.67px; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain;
+
+}
+
+.first-side-bottom a {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    color: #4CE0D7;
+    margin: 0;
+    text-decoration: none;
+}
+
+.first-side-bottom a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.first-side-bottom a:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+    transition: transform 0.3s ease;
+    animation: shine 1s forwards;
+}
+
+@keyframes shine {
+    0% {
+        left: -100%;
+    }
+    20% {
+        left: 100%;
+    }
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
 
+.second-button {
+    background: url(second.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 337px 304px 34px;
+    margin-right: 45px;
+    border-radius: 20px;
+}
+
+.second-button button {
+    width: 175.44px;
+    height: 36.49px;
+    border-radius: 40px;
+    background-color: #262626;
+    border: none;
+    color: white;
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 700;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.second-button button:hover {
+    background: linear-gradient(90deg, #3D6C53, #CE9F73);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
 
 
+.card3 {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 69px;
+}
 
+.third-button {
+    background: url(third.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 337px 304px 34px;
+    margin-right: 45px;
+    border-radius: 20px;
+}
+
+.third-button button {
+    width: 175.44px;
+    height: 36.49px;
+    border-radius: 40px;
+    background-color: #262626;
+    border: none;
+    color: white;
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 700;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.third-button button:hover {
+    background: linear-gradient(90deg, #3D6C53, #CE9F73);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+ 
 
 /* footer css starts here!!! */
 
 footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
    background-color: rgba(255, 255, 255, 1);
-   box-shadow: 6px 0px 6px 0px rgba(0, 0, 0, 0.05);
+   box-shadow: 6px 0px 6px 6px rgba(0, 0, 0, 0.05);
    border-radius: 40px 40px 0px 0px;
+   max-width: auto;
+   max-height: 308px;
 }
 
 .lux-image {
     width: 226px;
     height: 49px;
-    top: 4289px;
-    left: 84px;
+  
 }
 
 .footer-container {
-    padding: 87px 0px 37px 0px;
+    size: 100%;
+    height: 308px;
+    
 }
 
 .first-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 87px 89px 37px 84px;
+    padding: 87px 25px 37px 25px;
 }
 
 .contact {
@@ -616,7 +913,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    padding-right: 89px;
+    padding-right: 0px;
 }
 
 .lets-hang-out {
@@ -624,6 +921,7 @@ footer {
     font-size: 26px;
     font-weight: 700;
     line-height: 39px;
+    margin-left: 20px;
 }
 
 .socials {
@@ -636,16 +934,30 @@ footer {
     transform: scale(1.5);
 }
 
+.footer-line {
+    width: 1257px;
+    height: 1px;
+    color: #BCBCBC;
+    margin: 50px 0px 30px 0px;
+
+}
+
+.lower-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
 .second-footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
 }
 
 .copyright {
-    margin-left: 87px;
+    margin-left: 25px;
     font-family: 'Poppins';
     font-size: 14px;
     font-weight: 700;
@@ -655,7 +967,7 @@ footer {
 
 /* footer responsive */
 
-@media (min-width: 400px) and (max-width: 1024px) {
+@media (min-width: 400px) and (max-width: 1467px) {
     /* Styles for tablets in both portrait and landscape mode */
     .footer-container {
         display: flex;
@@ -693,5 +1005,6 @@ footer {
 
 
 }
+
 
 
