@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
@@ -505,11 +506,113 @@ gap: 48px;
     height: 94px;
     top: 2547px;
     left: 152px;
+=======
+/* cards-section container */
+
+.cards-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start;
+    margin-top: 88px; 
+    margin-bottom: 69px; 
+    max-width: 1204px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+.card1, .card2, .card3 { 
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%; 
+    max-width: 1204px;
+}
+
+.cards {
+    display: flex; 
+    flex-direction: column; 
+    gap: 50px; 
+    width: 100%; 
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.first-button {
+    background: url(first.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 337px 304px 34px;
+    margin-right: 45px;
+    border-radius: 20px;
+}
+
+.first-button button {
+    width: 175.44px;
+    height: 36.49px;
+    border-radius: 40px;
+    background-color: #262626;
+    border: none;
+    color: white;
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 700;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.first-button button:hover {
+    background: linear-gradient(90deg, #3D6C53, #CE9F73);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+.first-side-top {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    color: #BCBCBC;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.first-side-top div {
+    display: flex;
+    gap: 200px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.first-side-middle {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.first-side-middle h1 {
+    width: 543px;
+    height: 94px;
+>>>>>>> sixth-section
     font-family: 'Poppins';
     font-size: 26px;
     font-weight: 700;
     line-height: 39px;
     text-align: left;
+<<<<<<< HEAD
     color: rgba(38, 38, 38, 1);
 }
 
@@ -518,11 +621,19 @@ gap: 48px;
     height: 98px;
     top: 2643px;
     left: 153px;
+=======
+}
+
+.first-side-middle p {
+    width: 569px;
+    height: 73px;
+>>>>>>> sixth-section
     font-family: 'Poppins';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+<<<<<<< HEAD
     color: rgba(38, 38, 38, 1);
 }
 
@@ -540,11 +651,36 @@ gap: 48px;
     height: 23px;
     top: 2771px;
     left: 202px;
+=======
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.first-side-bottom {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+    
+.first-side-bottom img {
+    width: 21.67px; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain;
+
+}
+
+.first-side-bottom a {
+>>>>>>> sixth-section
     font-family: 'Poppins';
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0.24em;
+<<<<<<< HEAD
     text-align: left;
     color: rgba(76, 224, 215, 1);
 }
@@ -695,3 +831,112 @@ footer {
 }
 
 
+=======
+    color: #4CE0D7;
+    margin: 0;
+    text-decoration: none;
+}
+
+.first-side-bottom a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.first-side-bottom a:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+    transition: transform 0.3s ease;
+    animation: shine 1s forwards;
+}
+
+@keyframes shine {
+    0% {
+        left: -100%;
+    }
+    20% {
+        left: 100%;
+    }
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.second-button {
+    background: url(second.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 337px 304px 34px;
+    margin-right: 45px;
+    border-radius: 20px;
+}
+
+.second-button button {
+    width: 175.44px;
+    height: 36.49px;
+    border-radius: 40px;
+    background-color: #262626;
+    border: none;
+    color: white;
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 700;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.second-button button:hover {
+    background: linear-gradient(90deg, #3D6C53, #CE9F73);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+
+.card3 {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.third-button {
+    background: url(third.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 337px 304px 34px;
+    margin-right: 45px;
+    border-radius: 20px;
+}
+
+.third-button button {
+    width: 175.44px;
+    height: 36.49px;
+    border-radius: 40px;
+    background-color: #262626;
+    border: none;
+    color: white;
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 700;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.third-button button:hover {
+    background: linear-gradient(90deg, #3D6C53, #CE9F73);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+>>>>>>> sixth-section
