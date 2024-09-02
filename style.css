@@ -72,6 +72,7 @@ header {
   transform: scale(1.2);
 }
 
+
 /*---------------start of header responsive---------------*/
 
 /*----Responsive Styles for 1024px width screen-----*/
@@ -139,11 +140,11 @@ header {
       margin-left: 0;
     }
   }
-  /*----------------the end of header responsive----------------*/
+/*--------the end of header responsive---------*/
 
 
 
-  /*--------fist-section--------*/
+/*-------------------------fist-section-----------------------*/
 
 .first-section {
   display: flex;
@@ -216,9 +217,9 @@ header {
 }
 
 
-   /*-----------------------start of first-section responsive------------------*/
+/*-----------------------start of first-section responsive------------------*/
 
-   /*----------Responsive Styles for 1024px width screen----------*/
+/*------Responsive Styles for 1024px width screen-------*/
 
 @media only screen and (max-width: 1024px) {
     .first-section {
@@ -258,7 +259,7 @@ header {
     }
   }
   
-  /*---------Responsive Styles for 414px width screen----------*/
+  /*-------Responsive Styles for 414px width screen-------*/
 
   @media only screen and (max-width: 414px) {
     .first-section {
@@ -300,12 +301,12 @@ header {
     }
   }
   
-/*----------the end of first-section responsive---------*/
+/*-----the end of first-section responsive-----*/
 
 
 
 
-/*-------------topics-section--------------*/
+/*--------------------topics-section---------------------*/
 
 .section-topics {
   display: flex;
@@ -403,9 +404,10 @@ header {
   margin-bottom: 52.5px;
 }
 
-/*--------------start of topics-section responsive-------------*/
 
-/*-------Responsive Styles for 1024px width screen-------*/
+/*----------start of topics-section responsive----------*/
+
+/*-----Responsive Styles for 1024px width screen-----*/
 
 @media only screen and (max-width: 1024px) {
     .section-topics {
@@ -445,7 +447,7 @@ header {
     }
   }
   
-  /*-------Responsive Styles for 414px width screen-------*/
+  /*-----Responsive Styles for 414px width screen-----*/
 
   @media only screen and (max-width: 414px) {
     .section-topics {
@@ -491,8 +493,7 @@ header {
     }
   }
   
-/*--------------the end of topics-section responsive-------------*/
-
+/*-------the end of topics-section responsive-------*/
 
 
 
@@ -710,24 +711,22 @@ header {
     }
   }
 
-/*---------------start of fashion section responsive------------*/
+/*-------------start of fashion section responsive----------*/
 /* Responsive styles for 1024px */
 @media (max-width: 1024px) {
   .fashionSection {
-     /* Add some padding */
-     /* Reduce margin */
-    max-width: 100%; /* Full width */
-    gap: 10px; /* Add a gap for elements */
+    max-width: 100%; 
+    gap: 10px; 
   }
 
   .fashionImage img {
-    width: 100%; /* Full width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
 
   .fashionInfo {
-    flex-direction: column; /* Stack the items */
-    align-items: flex-start; /* Align to start */
+    flex-direction: column; 
+    align-items: flex-start; 
     margin-top: 0px;
     margin-left: 20px;
   }
@@ -744,8 +743,8 @@ header {
   }
 
   .fashionDate {
-    justify-content: space-between; /* Space between items */
-    margin: 10px 0; /* Adjust margin */
+    justify-content: space-between;
+    margin: 10px 0; 
   }
 
   .fashionText {
@@ -753,26 +752,26 @@ header {
   }
 
   .fashionText h1 {
-    font-size: 22px; /* Reduce font size */
-    margin: 20px 0; /* Adjust margins */
+    font-size: 22px; 
+    margin: 20px 0; 
   }
 
   .fashionText p {
-    font-size: 14px; /* Reduce font size */
-    margin: 10px 0; /* Adjust margins */
-    width: 82%; /* Full width */
+    font-size: 14px; 
+    margin: 10px 0; 
+    width: 82%; 
   }
 
   .fashionReadMore {
-    margin: 20px 20px; /* Adjust margins */
+    margin: 20px 20px; 
   }
 }
 
-/* Responsive styles for 414px */
+/*----Responsive styles for 414px----*/
 @media (max-width: 414px) {
   .fashionSection {
-    padding: 10px; /* Less padding */
-    margin: 0 10px; /* Reduce margin further */
+    padding: 10px; 
+    margin: 0 10px; 
   }
   .fashionImage button {
     margin-left: 10px;
@@ -784,36 +783,36 @@ header {
     height: auto;
   }
   .fashionImage img {
-    width: 100%; /* Full width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
 
   .fashionInfo {
-    flex-direction: column; /* Stack items */
-    align-items: flex-start; /* Align to start */
+    flex-direction: column; 
+    align-items: flex-start; 
   }
 
   .fashionDate {
-    flex-direction: column; /* Stack date items */
-    align-items: flex-start; /* Align to start */
+    flex-direction: column; 
+    align-items: flex-start; 
     margin-left: 10px;
   }
 
   .fashionText h1 {
-    font-size: 16px; /* Further reduce font size */
-    margin: 0px; /* Adjust margins */
+    font-size: 16px; 
+    margin: 0px; 
     width: 300px;
     line-height: 18px;
   }
 
   .fashionText p {
-    font-size: 10px; /* Further reduce font size */
-    margin: 0px; /* Adjust margins */
+    font-size: 10px;
+    margin: 0px; 
     line-height: 12px;
   }
 
   .fashionReadMore {
-    margin: 0; /* Adjust margins */
+    margin: 0; 
     margin-left: 18px;
   }
 
@@ -831,19 +830,22 @@ header {
 }
 
   .fashionImage button {
-    font-size: 10px; /* Reduce button font size */
-    padding: 8px; /* Adjust padding */
+    font-size: 10px; 
+    padding: 8px; 
   }
 
   .fashionDate b {
-    font-size: 12px; /* Reduce font size */
-    margin-left: 185px; /* Adjust margin */
-    text-align: right; /* Align text to left */
+    font-size: 12px;
+    margin-left: 185px; 
+    text-align: right; 
   }
 }
-/*---------------end of of fashion section responsive-----------*/
+/*-----end of of fashion section responsive-----*/
 
-/*---------trending section--------*/
+
+
+
+/*---------------------trending section---------------------*/
 
 .trending-section {
   max-width: 1204px;
@@ -1048,10 +1050,9 @@ header {
   gap: 60px;
 }
 
-/* trending section responsive */
+/*-----------trending section responsive-----------*/
 
 @media (min-width: 400px) and (max-width: 1024px) {
-  /* Styles for tablets in both portrait and landscape mode */
   .lif-and-sum {
     display: flex;
     flex-direction: column;
@@ -1139,9 +1140,11 @@ header {
 }
 
 }
-/* trending section css ends here */
+/*--------end of trending section responsive-------*/
 
-/* sixth-section container */
+
+
+/*------------------sixth-section container----------------*/
 
 .Scards-section {
   display: flex;
@@ -1288,7 +1291,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
-    position: relative; /* Set position to relative for the shine effect */
+    position: relative; 
     overflow: hidden;
   }
   
@@ -1312,16 +1315,16 @@ header {
   }
   
   .first-side-bottom:hover {
-    transform: scale(1.2); /* Scale up the element */
+    transform: scale(1.2); 
     transition: transform 0.3s ease;
-    transform-origin: left; /* Scale from the left to grow right */
+    transform-origin: left; 
   }
   
   .first-side-bottom:hover::before {
     content: "";
     position: absolute;
     top: 0;
-    left: -100%; /* Start from the left edge */
+    left: -100%; 
     width: 100%;
     height: 100%;
     background: linear-gradient(
@@ -1330,16 +1333,16 @@ header {
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.2)
     );
-    transition: left 0.3s ease; /* Smooth transition for shine effect */
+    transition: left 0.3s ease; 
     animation: shine 1s forwards;
   }
   
   @keyframes shine {
     0% {
-      left: -100%; /* Start from the left */
+      left: -100%; 
     }
     100% {
-      left: 100%; /* Move to the right */
+      left: 100%; 
     }
   }
   
@@ -1421,34 +1424,34 @@ header {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
 }
 
-/* Responsive Styles */
+/*--------sixth-section responsive styles-------*/
 @media (max-width: 1024px) {
     .Scards-section {
       margin-bottom: 40px;
     }
     
     .Scards {
-      gap: 28px; /* Reduced gap */
+      gap: 28px; 
     }
   
     .card1,
     .card2,
     .card3 {
-      padding: 0px; /* Added padding */
+      padding: 0px; 
     }
   
     .first-button,
     .second-button,
     .third-button {
-      padding: 20px 200px 200px 20px; /* Adjusted padding */
-      margin-right: 20px; /* Reduced margin */
+      padding: 20px 200px 200px 20px; 
+      margin-right: 20px; 
     }
     .side {
         height: 350px;
        justify-content: space-evenly;
     }
     .first-side-top {
-      font-size: 12px; /* Smaller font size */
+      font-size: 12px; 
       width: 300px;
       padding-top: 20px;
      
@@ -1459,12 +1462,12 @@ header {
     }
   
     .first-side-middle h1 {
-      font-size: 26px; /* Smaller heading */
+      font-size: 26px; 
       width: 600px;
     }
   
     .first-side-middle p {
-      font-size: 16px; /* Smaller paragraph */
+      font-size: 16px; 
       line-height: 30px;
     }
   
@@ -1474,34 +1477,34 @@ header {
         margin-bottom: 10px;
     }
     .first-side-bottom {
-      margin-bottom: 30px; /* Reduced margin */
+      margin-bottom: 30px; 
       overflow: hidden;
     }
   }
     
   @media (max-width: 414px) {
     .Scards-section {
-        margin-bottom: 100px; /* Adjust margin */
+        margin-bottom: 100px; 
         margin-top: 100px;
     }
 
     .Scards {
-        gap: 20px; /* Reduced gap between cards */
+        gap: 20px; 
     }
 
     .card1, .card2, .card3 {
-        flex-direction: column; /* Stack items vertically */
-        align-items: flex-start; /* Align items to the start */
-        padding: 10px; /* Reduced padding for smaller height */
-        max-width: 100%; /* Use full width */
-        height: 500px; /* Set to auto for dynamic height */
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 10px; 
+        max-width: 100%; 
+        height: 500px; 
     }
 
     .first-button, .second-button, .third-button {
-        margin: 0; /* Remove margins */
-        width: 100%; /* Full width button */
-        text-align: center; /* Center button text */
-        margin-bottom: 5px; /* Reduce bottom margin */
+        margin: 0; 
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 5px; 
     }
 
     .side {
@@ -1511,51 +1514,57 @@ header {
         padding-bottom: 20px;
     }
     .first-side-top {
-        margin-top: 0px; /* Reduced margin */
+        margin-top: 0px; 
         
     }
 
     .first-side-middle {
-        height: auto; /* Auto height for better fitting */
-        width: 100%; /* Full width */
+        height: auto; 
+        width: 100%; 
         height: 50px;
     }
 
     .first-side-middle h1 {
-        font-size: 16px; /* Further reduce font size */
+        font-size: 16px; 
         margin-top: -20px;
-        margin:  0; /* Reduce margin */
+        margin:  0; 
         width: 300px;
         line-height: 15px;
         padding-bottom: 10px;
     }
 
     .first-side-middle p {
-        font-size: 10px; /* Reduce paragraph font size */
-        line-height: 12px; /* Adjust line height */
-        margin: 0; /* Remove margin */
+        font-size: 10px; 
+        line-height: 12px; 
+        margin: 0; 
     }
 
     .first-side-bottom {
-        margin-top: 10px; /* Space above bottom content */
-        align-self: flex-start; /* Align bottom content to start */
+        margin-top: 10px; 
+        align-self: flex-start; 
         padding-top: 15px;
         overflow: hidden;
 
     }
     
     .first-side-bottom img {
-        width: 16px; /* Adjust arrow size */
+        width: 16px; 
 
     }
 
     .first-side-bottom a {
-        font-size: 10px; /* Reduce link font size */
-
+        font-size: 10px; 
     }
 }
 
-/* --------------------------footer css starts here----------------------------- */
+/*--------end of sixth-section responsive---------*/
+
+
+
+
+
+
+/* --------------------------footer----------------------------- */
 
 footer {
   display: flex;
@@ -1644,49 +1653,49 @@ footer {
   text-align: left;
 }
 
-/*footer responsive*/
+/*-------------------footer responsive------------------*/
 /* Responsive styles for 1024px screens */
 @media (max-width: 1024px) {
     .footer-container {
-      padding: 20px; /* Add padding for better spacing */
+      padding: 20px; 
     }
   
     .first-footer {
-      flex-direction: column; /* Stack items vertically */
-      align-items: center; /* Center items */
-      padding: 20px; /* Adjust padding */
+      flex-direction: column; 
+      align-items: center; 
+      padding: 20px; 
     }
   
     .contact {
-      justify-content: center; /* Center social icons */
-      margin-top: 10px; /* Add margin for spacing */
+      justify-content: center; 
+      margin-top: 10px; 
     }
   
     .lets-hang-out {
-      font-size: 24px; /* Adjust font size */
-      line-height: 30px; /* Adjust line height */
+      font-size: 24px; 
+      line-height: 30px; 
     }
   
     .footer-line {
-      width: 80%; /* Make the line responsive */
-      margin: 20px auto; /* Center with margin */
+      width: 80%; 
+      margin: 20px auto; 
     }
   
     .copyright {
-        text-align: center; /* Center the text */
-        width: 100%; /* Ensure it takes full width */
-        margin: 0; /* Reset margin */
-        margin-left: -10px; /* Adjust to move left */
+        text-align: center; 
+        width: 100%; 
+        margin: 0; 
+        margin-left: -10px; 
       }
     
       .copyright b {
-        display: inline; /* Inline to ensure proper centering */
+        display: inline; 
       }
     }
   /* Responsive styles for 414px screens */
   @media (max-width: 414px) {
     footer {
-      padding: 10px; /* Add padding to footer */
+      padding: 10px; 
       width: 100%;
       position: relative;
       height: 200px;
@@ -1696,47 +1705,48 @@ footer {
     }
   
     .footer-container {
-      padding: 10px; /* Add padding for better spacing */
+      padding: 10px; 
       position: relative;
       margin-bottom: 0px;
       margin-top: 90px;
     }
   
     .first-footer {
-      padding: 10px; /* Adjust padding */
-      align-items: center; /* Center items */
+      padding: 10px; 
+      align-items: center; 
     }
   
     .first-footer img{
         size: 20%;
     }
     .lets-hang-out {
-      font-size: 12px; /* Reduce font size for better visibility */
-      line-height: 12px; /* Adjust line height */
-      margin: 0; /* Add margin for spacing */
+      font-size: 12px; 
+      line-height: 12px; 
+      margin: 0; 
     }
   
     .socials {
-      justify-content: center; /* Center social icons */
-      gap: 5px; /* Adjust gap */
+      justify-content: center; 
+      gap: 5px; 
     }
   
     .footer-line {
-      width: 90%; /* Make the line responsive */
-      margin: 15px auto; /* Center with margin */
+      width: 90%; 
+      margin: 15px auto; 
     }
   
     .copyright {
-        font-size: 8px; /* Reduce font size for copyright */
-        text-align: center; /* Center the text */
-        width: 100%; /* Ensure it takes full width */
-        margin: 0; /* Reset margin */
-        margin-left: -10px; /* Adjust to move left */
+        font-size: 8px; 
+        text-align: center; 
+        width: 100%; 
+        margin: 0; 
+        margin-left: -10px; 
       }
     
       .copyright b {
-        display: inline; /* Inline to ensure proper centering */
+        display: inline; 
       }
     }
-  
+  /*-------------------end of footer responsive------------------*/
+
     
